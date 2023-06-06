@@ -2,7 +2,9 @@
 import { useState } from 'react';
 
 import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Navitem from './components/Navitem';
 
 export default function Main() {
   const [currentPage, setCurrentPage] = useState(<Home />);
@@ -12,14 +14,20 @@ export default function Main() {
   };
   return (
     <>
-      <nav className="bg-black">
+      <nav className="p-4 bg-black">
         <ul className="flex items-center justify-center gap-10">
-          <li>
-            <button onClick={() => handleNavClick(<Home />)}>home</button>
-          </li>
-          <li>
-            <button onClick={() => handleNavClick(<Contact />)}>contact</button>
-          </li>
+          <Navitem
+            itemName={'home'}
+            handleNavClick={() => handleNavClick(<Home />)}
+          />
+          <Navitem
+            itemName={'portfolio'}
+            handleNavClick={() => handleNavClick(<Portfolio />)}
+          />
+          <Navitem
+            itemName={'contact'}
+            handleNavClick={() => handleNavClick(<Contact />)}
+          />
         </ul>
       </nav>
       <main className="flex flex-col items-center">{currentPage}</main>
