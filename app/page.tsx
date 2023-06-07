@@ -1,13 +1,13 @@
 'use client';
 import { useState } from 'react';
 
-import Home from './components/Home';
+import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navitem from './components/Navitem';
 
 export default function Main() {
-  const [currentPage, setCurrentPage] = useState(<Home />);
+  const [currentPage, setCurrentPage] = useState(<About />);
 
   const handleNavClick = (component: JSX.Element) => {
     setCurrentPage(component);
@@ -17,8 +17,8 @@ export default function Main() {
       <nav className="p-4 fixed top-0 left-0 right-0">
         <ul className="flex items-center justify-center gap-10">
           <Navitem
-            itemName={'home'}
-            handleNavClick={() => handleNavClick(<Home />)}
+            itemName={'about'}
+            handleNavClick={() => handleNavClick(<About />)}
           />
           <Navitem
             itemName={'portfolio'}
