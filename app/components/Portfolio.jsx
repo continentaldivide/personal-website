@@ -1,6 +1,6 @@
 export default function Portfolio() {
   return (
-    <div className="container w-1/2 my-auto">
+    <div className="container w-1/2 mt-20">
       <h1 className="text-5xl font-bold leading-relaxed">Recent projects</h1>
       <h2 className="text-3xl font-light leading-relaxed">
         (Management apologizes for the temporary placeholder images)

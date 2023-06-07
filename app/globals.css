@@ -23,6 +23,11 @@ main {
   height: 100%;
 }
 
+nav {
+  background-color: #233;
+  border-bottom: 1px solid #455;
+}
+
 h2 {
   color: #899;
 }
