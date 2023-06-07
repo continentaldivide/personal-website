@@ -14,7 +14,7 @@ export default function Main() {
   };
   return (
     <>
-      <nav className="p-4 bg-black">
+      <nav className="p-4 bg-black fixed top-0 left-0 right-0">
         <ul className="flex items-center justify-center gap-10">
           <Navitem
             itemName={'home'}
