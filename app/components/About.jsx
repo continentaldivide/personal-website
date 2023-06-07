@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="container w-1/2 my-auto">
+    <div className="container w-1/2 mt-40 pb-10">
       <h1 className="text-5xl font-bold leading-relaxed">
         Hi, I'm Andrew Smith
       </h1>
