@@ -12,7 +12,7 @@ export default function Portfolio() {
             <a
               target="_blank"
               href="https://calientes-nine.vercel.app/"
-              className="underline"
+              className="underline hover:brightness-200"
             >
               calientes
             </a>
@@ -23,13 +23,20 @@ export default function Portfolio() {
             various statistics and fun facts about the series.
           </p>
         </div>
-        <img src="https://placekitten.com/200/100" className="basis-2/5"></img>
+        <div className="basis-2/5">
+          <a
+            target="_blank"
+            href="https://calientes-nine.vercel.app/"
+          >
+            <img src="https://placekitten.com/400/200"></img>
+          </a>
+        </div>
         <div className="basis-1/2">
           <p className="text-2xl font-bold leading-relaxed">
             <a
               target="_blank"
               href="https://nearmint.app/"
-              className="underline"
+              className="underline hover:brightness-200"
             >
               nearmint
             </a>
@@ -40,13 +47,20 @@ export default function Portfolio() {
             along with curating a wishlist of comics they'd like to get.
           </p>
         </div>
-        <img src="https://placekitten.com/200/100" className="basis-2/5"></img>
+        <div className="basis-2/5">
+          <a
+            target="_blank"
+            href="https://nearmint.app/"
+          >
+            <img src="https://placekitten.com/400/200"></img>
+          </a>
+        </div>
         <div className="basis-1/2">
           <p className="text-2xl font-bold leading-relaxed">
             <a
               target="_blank"
               href="https://hecticharvest.com/"
-              className="underline"
+              className="underline hover:brightness-200"
             >
               hectic harvest
             </a>
@@ -57,7 +71,14 @@ export default function Portfolio() {
             Canvas.
           </p>
         </div>
-        <img src="https://placekitten.com/200/100" className="basis-2/5"></img>
+        <div className="basis-2/5">
+          <a
+            target="_blank"
+            href="https://hecticharvest.com/"
+          >
+            <img src="https://placekitten.com/400/200"></img>
+          </a>
+        </div>
       </div>
     </div>
   );
