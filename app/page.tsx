@@ -2,6 +2,7 @@
 import { useState } from 'react';
 
 import About from './components/About';
+import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navitem from './components/Navitem';
@@ -19,6 +20,10 @@ export default function Main() {
           <Navitem
             itemName={'about'}
             handleNavClick={() => handleNavClick(<About />)}
+          />
+          <Navitem
+            itemName={'skills'}
+            handleNavClick={() => handleNavClick(<Skills />)}
           />
           <Navitem
             itemName={'portfolio'}
