@@ -1,8 +1,17 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'andrewsmith.org',
+  title: 'Andrew Smith',
   description: 'Personal website of Andrew Smith',
+  openGraph: {
+    title: 'Andrew Smith',
+    description: 'Personal website of Andrew Smith',
+    images: [
+      {
+        url: 'thumbnail.png',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
