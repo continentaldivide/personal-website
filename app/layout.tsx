@@ -8,7 +8,7 @@ export const metadata = {
     description: 'Personal website of Andrew Smith',
     images: [
       {
-        url: 'thumbnail.png',
+        url: 'https://www.andrewsmith.org/thumbnail.png',
       },
     ],
   },
