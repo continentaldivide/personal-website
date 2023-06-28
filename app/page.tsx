@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <>
       <nav className="p-4 fixed top-0 left-0 right-0">
-        <ul className="flex items-center justify-center gap-10">
+        <ul className="flex items-center justify-center space-x-10">
           <Navitem
             itemName={'about'}
             handleNavClick={() => handleNavClick(<About />)}
