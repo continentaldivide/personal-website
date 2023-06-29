@@ -13,14 +13,14 @@ export default function Portfolio() {
       title: "nearmint",
       projectLink: "https://nearmint.app/",
       gitHubLink: "https://github.com/continentaldivide/nearmint/",
-      imageUrl: "https://placekitten.com/400/300/",
+      imageUrl: "https://www.andrewsmith.org/nearmint.png",
       text: "Nearmint is an app that leverages the Marvel comics API to offer users the opportunity to catalog their collection of Marvel comics,along with curating a wishlist of comics they'd like to get.",
     },
     {
       title: "hectic harvest",
       projectLink: "https://hecticharvest.com/",
       gitHubLink: "https://github.com/continentaldivide/hectic-harvest/",
-      imageUrl: "https://placekitten.com/400/300/",
+      imageUrl: "https://www.andrewsmith.org/hecticharvest.png",
       text: "Hectic Harvest is a fast-paced farming game inspired by cozy farming sims like Harvest Moon and Stardew Valley. It was built with HTML Canvas.",
     },
   ];
