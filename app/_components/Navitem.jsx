@@ -1,7 +1,7 @@
-export default function Navitem({ itemName }) {
+export default function Navitem({ itemName, href }) {
   return (
     <li className="text-2xl hover:brightness-200">
-      <a href={`${itemName}`}>{itemName}</a>
+      <a href={href}>{itemName}</a>
     </li>
   );
 }
