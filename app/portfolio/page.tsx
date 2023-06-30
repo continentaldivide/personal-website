@@ -1,4 +1,6 @@
 import PortfolioItem from '../components/PortfolioItem';
+import nearmintPreview from '../../public/nearmint.png';
+import hecticPreview from '../../public/hecticharvest.png';
 
 export default function Portfolio() {
   const PortfolioData = [
@@ -6,21 +8,21 @@ export default function Portfolio() {
       title: 'calientes',
       projectLink: 'https://calientes-nine.vercel.app/',
       gitHubLink: 'https://github.com/continentaldivide/calientes/',
-      imageUrl: 'https://placekitten.com/400/300/',
+      image: nearmintPreview,
       text: 'Calientes is an app focused towards fans of the YouTube series Hot Ones. It uses a custom backend data API to enable users to browse various statistics and fun facts about the series.',
     },
     {
       title: 'nearmint',
       projectLink: 'https://nearmint.app/',
       gitHubLink: 'https://github.com/continentaldivide/nearmint/',
-      imageUrl: 'https://www.andrewsmith.org/nearmint.png',
+      image: nearmintPreview,
       text: "Nearmint is an app that leverages the Marvel comics API to offer users the opportunity to catalog their collection of Marvel comics,along with curating a wishlist of comics they'd like to get.",
     },
     {
       title: 'hectic harvest',
       projectLink: 'https://hecticharvest.com/',
       gitHubLink: 'https://github.com/continentaldivide/hectic-harvest/',
-      imageUrl: 'https://www.andrewsmith.org/hecticharvest.png',
+      image: hecticPreview,
       text: 'Hectic Harvest is a fast-paced farming game inspired by cozy farming sims like Harvest Moon and Stardew Valley. It was built with HTML Canvas.',
     },
   ];
@@ -31,7 +33,7 @@ export default function Portfolio() {
         title={portfolioItem.title}
         projectLink={portfolioItem.projectLink}
         gitHubLink={portfolioItem.gitHubLink}
-        imageUrl={portfolioItem.imageUrl}
+        image={portfolioItem.image}
         text={portfolioItem.text}
         key={`project ${i}`}
       />
