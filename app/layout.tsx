@@ -1,5 +1,5 @@
 import './globals.css';
-import Navitem from './components/Navitem';
+import Navitem from './_components/Navitem';
 
 export const metadata = {
   title: 'Andrew Smith',

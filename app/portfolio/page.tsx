@@ -1,4 +1,4 @@
-import PortfolioItem from '../components/PortfolioItem';
+import PortfolioItem from '../_components/PortfolioItem';
 import nearmintPreview from '../../public/nearmint.png';
 import hecticPreview from '../../public/hecticharvest.png';
 
