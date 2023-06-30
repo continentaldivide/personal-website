@@ -1,4 +1,5 @@
 import PortfolioItem from '../_components/PortfolioItem';
+import calientesPreview from '../../public/calientes.png';
 import nearmintPreview from '../../public/nearmint.png';
 import hecticPreview from '../../public/hecticharvest.png';
 
@@ -8,7 +9,7 @@ export default function Portfolio() {
       title: 'calientes',
       projectLink: 'https://calientes-nine.vercel.app/',
       gitHubLink: 'https://github.com/continentaldivide/calientes/',
-      image: nearmintPreview,
+      image: calientesPreview,
       text: 'Calientes is an app focused towards fans of the YouTube series Hot Ones. It uses a custom backend data API to enable users to browse various statistics and fun facts about the series.',
     },
     {
@@ -43,9 +44,6 @@ export default function Portfolio() {
     <main className="flex justify-center mt-20">
       <div className="container w-1/2">
         <h1 className="text-5xl font-bold leading-relaxed">Recent projects</h1>
-        <h2 className="text-3xl font-light leading-relaxed">
-          (Management apologizes for the temporary placeholder images)
-        </h2>
         <br />
         {portfolioItems}
       </div>
