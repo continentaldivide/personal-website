@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 export default function PortfolioItem({
   title,
   projectLink,
   gitHubLink,
-  imageUrl,
+  image,
   text,
 }) {
   return (
@@ -26,7 +28,7 @@ export default function PortfolioItem({
         </a>
       </div>
       <a target="_blank" href={projectLink}>
-        <img src={imageUrl}></img>
+        <Image src={image} placeholder="blur" />
       </a>
       <p className="text-xl leading-relaxed">{text}</p>
     </div>
