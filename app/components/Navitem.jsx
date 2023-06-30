@@ -1,7 +1,7 @@
-export default function Navitem({ itemName, handleNavClick }) {
+export default function Navitem({ itemName }) {
   return (
     <li className="text-2xl hover:brightness-200">
-      <button onClick={handleNavClick}>{itemName}</button>
+      <a href={`${itemName}`}>{itemName}</a>
     </li>
   );
 }
