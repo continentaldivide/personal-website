@@ -1,13 +1,19 @@
 import SkillItem from "../_components/SkillItem";
 
+type Skill = {
+  text: string;
+  slug: string;
+  color?: string;
+};
+
 export default function Skills() {
-  const languageSkills = [
+  const languageSkills: Skill[] = [
     { text: "html", slug: "html5" },
     { text: "css", slug: "css3" },
     { text: "javascript", slug: "javascript" },
     { text: "python", slug: "python" },
   ];
-  const frameworkSkills = [
+  const frameworkSkills: Skill[] = [
     { text: "react", slug: "react" },
     { text: "next.js", slug: "next.js" },
     { text: "express", slug: "express", color: "FFFFFF" },
@@ -15,7 +21,7 @@ export default function Skills() {
     { text: "bootstrap", slug: "bootstrap" },
     { text: "bulma", slug: "bulma" },
   ];
-  const otherSkills = [
+  const otherSkills: Skill[] = [
     { text: "node.js", slug: "node.js" },
     { text: "postgres", slug: "postgresql" },
     { text: "sequelize", slug: "sequelize" },
