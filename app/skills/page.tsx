@@ -1,24 +1,52 @@
-import SkillItem from '../_components/SkillItem';
+import SkillItem from "../_components/SkillItem";
 
 export default function Skills() {
-  const skills = [
-    { text: 'html', slug: 'html5' },
-    { text: 'css', slug: 'css3' },
-    { text: 'javascript', slug: 'javascript' },
-    { text: 'react', slug: 'react' },
-    { text: 'next.js', slug: 'next.js' },
-    { text: 'node.js', slug: 'node.js' },
-    { text: 'express', slug: 'express', color: 'FFFFFF' },
-    { text: 'postgres', slug: 'postgresql' },
-    { text: 'mongodb', slug: 'mongodb' },
+  const languageSkills = [
+    { text: "html", slug: "html5" },
+    { text: "css", slug: "css3" },
+    { text: "javascript", slug: "javascript" },
+    { text: "python", slug: "python" },
   ];
-  const listItems = skills.map((skill, i) => {
+  const frameworkSkills = [
+    { text: "react", slug: "react" },
+    { text: "next.js", slug: "next.js" },
+    { text: "express", slug: "express", color: "FFFFFF" },
+  ];
+  const otherSkills = [
+    { text: "node.js", slug: "node.js" },
+    { text: "postgres", slug: "postgresql" },
+    { text: "mongodb", slug: "mongodb" },
+    { text: "git", slug: "git" },
+    { text: "github", slug: "github" },
+    { text: "sass", slug: "sass" },
+  ];
+  const languageSkillComponents = languageSkills.map((languageSkill, i) => {
     return (
       <SkillItem
-        slug={skill.slug}
-        text={skill.text}
-        color={skill.color}
-        key={`skill ${i}`}
+        slug={languageSkill.slug}
+        text={languageSkill.text}
+        color={languageSkill.color}
+        key={`languageSkill ${i}`}
+      />
+    );
+  });
+  const frameworkSkillComponents = frameworkSkills.map((frameworkSkill, i) => {
+    return (
+      <SkillItem
+        slug={frameworkSkill.slug}
+        text={frameworkSkill.text}
+        color={frameworkSkill.color}
+        key={`frameworkSkill ${i}`}
+      />
+    );
+  });
+  const otherSkillComponents = otherSkills.map((otherSkill, i) => {
+    return (
+      <SkillItem
+        slug={otherSkill.slug}
+        text={otherSkill.text}
+        color={otherSkill.color}
+        key={`otherSkill ${i}`}
       />
     );
   });
@@ -30,7 +58,20 @@ export default function Skills() {
           I'm proficient with these tools:
         </h2>
         <br />
-        <ul>{listItems}</ul>
+        <div className="flex justify-between">
+          <div>
+            <h3>languages</h3>
+            <ul>{languageSkillComponents}</ul>
+          </div>
+          <div>
+            <h3>frameworks</h3>
+            <ul>{frameworkSkillComponents}</ul>
+          </div>
+          <div>
+            <h3>other</h3>
+            <ul>{otherSkillComponents}</ul>
+          </div>
+        </div>
       </div>
     </main>
   );
