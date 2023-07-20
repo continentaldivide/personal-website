@@ -11,13 +11,18 @@ export default function Skills() {
     { text: "react", slug: "react" },
     { text: "next.js", slug: "next.js" },
     { text: "express", slug: "express", color: "FFFFFF" },
+    { text: "tailwind", slug: "tailwindcss" },
+    { text: "bootstrap", slug: "bootstrap" },
+    { text: "bulma", slug: "bulma" },
   ];
   const otherSkills = [
     { text: "node.js", slug: "node.js" },
     { text: "postgres", slug: "postgresql" },
+    { text: "sequelize", slug: "sequelize" },
     { text: "mongodb", slug: "mongodb" },
+    { text: "mongoose", slug: "mongoose" },
     { text: "git", slug: "git" },
-    { text: "github", slug: "github" },
+    { text: "github", slug: "github", color: "FFFFFF" },
     { text: "sass", slug: "sass" },
   ];
   const languageSkillComponents = languageSkills.map((languageSkill, i) => {
