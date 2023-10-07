@@ -11,6 +11,7 @@ export default function Skills() {
     { text: "html", slug: "html5" },
     { text: "css", slug: "css3" },
     { text: "javascript", slug: "javascript" },
+    { text: "typescript", slug: "typescript" },
     { text: "python", slug: "python" },
   ];
   const frameworkSkills: Skill[] = [
