@@ -63,14 +63,14 @@ export default function Skills() {
     );
   });
   return (
-    <main className="flex justify-center items-center">
-      <div className="container w-1/2">
+    <main className="lg:flex lg:justify-center lg:items-center">
+      <div className="lg:w-1/2">
         <h1 className="text-5xl font-bold leading-relaxed">Skills</h1>
-        <h2 className="text-3xl font-light leading-relaxed">
+        <h2 className="text-3xl font-light leading-relaxed text-center lg:text-left">
           I'm proficient with these tools:
         </h2>
         <br />
-        <div className="flex justify-between">
+        <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start">
           <div>
             <h3>languages</h3>
             <ul>{languageSkillComponents}</ul>
