@@ -70,7 +70,7 @@ export default function Skills() {
           I'm proficient with these tools:
         </h2>
         <br />
-        <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start">
+        <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-between lg:items-start">
           <div>
             <h3>languages</h3>
             <ul>{languageSkillComponents}</ul>
