@@ -1,10 +1,18 @@
 import PortfolioItem from '../_components/PortfolioItem';
+import destinyPreview from '../../public/destinystatus.png';
 import calientesPreview from '../../public/calientes.png';
 import nearmintPreview from '../../public/nearmint.png';
 import hecticPreview from '../../public/hecticharvest.png';
 
 export default function Portfolio() {
   const PortfolioData = [
+    {
+      title: 'destiny status',
+      projectLink: 'https://www.destinystatus.net/',
+      gitHubLink: 'https://github.com/continentaldivide/destiny-status/',
+      image: destinyPreview,
+      text: 'Destiny Status takes advantage of the Bungie API to enable searching for Destiny 2 players and viewing their in-game equipment.',
+    },
     {
       title: 'calientes',
       projectLink: 'https://calientes-nine.vercel.app/',
