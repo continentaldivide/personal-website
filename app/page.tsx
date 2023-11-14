@@ -26,13 +26,13 @@ export default function Main() {
           </p>
           <br />
           <p className="text-xl font-light leading-relaxed">
-            I've spent the last year developing foundational web development
-            skills, first self-taught via Free Code Camp and The Odin Project,
-            then by completing General Assembly's Software Engineering Immersive
-            bootcamp program. While I'm still a rookie programmer and have lots
-            to learn, I believe I'm off to a strong start and I'm eager to keep
-            learning more. I'd love to work with you on a project -- please feel
-            free to reach out.
+            I've spent the last two years developing foundational web
+            development skills, first self-taught via Free Code Camp and The
+            Odin Project, then by completing General Assembly's Software
+            Engineering Immersive bootcamp program. Today, I'm a capable
+            junior-level programmer who understands how much there still is to
+            learn and is eager to learn it. I'd love to work with you on a
+            project -- please feel free to reach out.
           </p>
         </div>
       </main>
