@@ -63,14 +63,16 @@ export default function Skills() {
     );
   });
   return (
-    <main className="lg:flex lg:justify-center lg:items-center">
-      <div className="lg:w-1/2">
-        <h1 className="text-5xl font-bold leading-relaxed">Skills</h1>
-        <h2 className="text-3xl font-light leading-relaxed text-center lg:text-left">
+    <main className="md:flex md:justify-center md:items-center">
+      <div className="md:w-3/4 lg:w-1/2 mt-24 md:mt-0">
+        <h1 className="text-5xl font-bold leading-relaxed text-center md:text-left">
+          Skills
+        </h1>
+        <h2 className="text-3xl font-light leading-relaxed text-center md:text-left">
           I'm proficient with these tools:
         </h2>
         <br />
-        <div className="flex flex-col items-center gap-6 lg:flex-row lg:justify-between lg:items-start">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between md:items-start">
           <div>
             <h3>languages</h3>
             <ul>{languageSkillComponents}</ul>
