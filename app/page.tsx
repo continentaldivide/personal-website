@@ -2,7 +2,7 @@ export default function Main() {
   return (
     <>
       <main className="flex flex-col items-center">
-        <div className="container w-1/2 mt-40 pb-10">
+        <div className="container w-3/4 lg:w-1/2 mt-40 pb-10">
           <h1 className="text-5xl font-bold leading-relaxed">
             Hi, I'm Andrew Smith
           </h1>

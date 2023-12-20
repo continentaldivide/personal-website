@@ -50,7 +50,7 @@ export default function Portfolio() {
   });
   return (
     <main className="flex justify-center mt-20">
-      <div className="container w-1/2">
+      <div className="w-3/4 lg:w-1/2">
         <h1 className="text-5xl font-bold leading-relaxed">Recent projects</h1>
         <br />
         {portfolioItems}
