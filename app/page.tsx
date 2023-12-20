@@ -10,13 +10,13 @@ export default function Main() {
             I'm a web developer located in Durham, NC
           </h2>
           <br />
-          <p className="text-xl font-light leading-relaxed">
+          <p className="text-2xl font-light leading-relaxed">
             I've had a fascination with the web (and putting Stuff on it) ever
             since tinkering with Geocities and LiveJournal layouts during my
             formative years.
           </p>
           <br />
-          <p className="text-xl font-light leading-relaxed">
+          <p className="text-2xl font-light leading-relaxed">
             I put my technical hobbies aside briefly while getting my B.A. in
             English and Philosophy at the University of North Carolina. When I
             took <em>Intro to Javascript</em> as a senior-year elective, I
@@ -25,7 +25,7 @@ export default function Main() {
             realized that I was looking for it.
           </p>
           <br />
-          <p className="text-xl font-light leading-relaxed">
+          <p className="text-2xl font-light leading-relaxed">
             I've spent the last two years developing foundational web
             development skills, first self-taught via Free Code Camp and The
             Odin Project, then by completing General Assembly's Software
