@@ -2,21 +2,22 @@ export default function Main() {
   return (
     <>
       <main className="flex flex-col items-center">
-        <div className="container w-3/4 lg:w-1/2 mt-40 pb-10">
-          <h1 className="text-5xl font-bold leading-relaxed">
+        <div className="container w-3/4 lg:w-1/2 mt-24 md:mt-40 pb-10">
+          <h1 className="text-5xl font-bold md:leading-relaxed">
             Hi, I'm Andrew Smith
           </h1>
-          <h2 className="text-3xl font-light leading-relaxed">
+          <br />
+          <h2 className="text-3xl font-light md:leading-relaxed">
             I'm a web developer located in Durham, NC
           </h2>
           <br />
-          <p className="text-2xl font-light leading-relaxed">
+          <p className="text-2xl font-light md:leading-relaxed">
             I've had a fascination with the web (and putting Stuff on it) ever
             since tinkering with Geocities and LiveJournal layouts during my
             formative years.
           </p>
           <br />
-          <p className="text-2xl font-light leading-relaxed">
+          <p className="text-2xl font-light md:leading-relaxed">
             I put my technical hobbies aside briefly while getting my B.A. in
             English and Philosophy at the University of North Carolina. When I
             took <em>Intro to Javascript</em> as a senior-year elective, I
@@ -25,7 +26,7 @@ export default function Main() {
             realized that I was looking for it.
           </p>
           <br />
-          <p className="text-2xl font-light leading-relaxed">
+          <p className="text-2xl font-light md:leading-relaxed">
             I've spent the last two years developing foundational web
             development skills, first self-taught via Free Code Camp and The
             Odin Project, then by completing General Assembly's Software
