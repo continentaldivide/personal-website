@@ -9,7 +9,7 @@ export default function PortfolioItem({
 }) {
   return (
     <div className="mb-4">
-      <div className="flex justify-between">
+      <div className="flex justify-between items-center">
         <p className="text-3xl font-bold leading-relaxed space-x-2">
           <a
             target="_blank"
