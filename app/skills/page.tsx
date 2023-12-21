@@ -74,15 +74,15 @@ export default function Skills() {
         <br />
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between md:items-start">
           <div>
-            <h3>languages</h3>
+            <p className="text-3xl mb-2">languages</p>
             <ul>{languageSkillComponents}</ul>
           </div>
           <div>
-            <h3>frameworks</h3>
+          <p className="text-3xl mb-2">frameworks</p>
             <ul>{frameworkSkillComponents}</ul>
           </div>
           <div>
-            <h3>other</h3>
+          <p className="text-3xl mb-2">other</p>
             <ul>{otherSkillComponents}</ul>
           </div>
         </div>
