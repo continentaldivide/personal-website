@@ -1,4 +1,5 @@
 import PortfolioItem from "../_components/PortfolioItem";
+import RemixItem from "../_components/RemixItem";
 import remixPreview from "../../public/remixchecklist.png";
 import destinyPreview from "../../public/destinystatus.png";
 import calientesPreview from "../../public/calientes.png";
@@ -7,14 +8,6 @@ import hecticPreview from "../../public/hecticharvest.png";
 
 export default function Portfolio() {
   const PortfolioData = [
-    {
-      title: "remix checklist",
-      projectLink: "https://www.remixchecklist.com/",
-      gitHubLink: "https://github.com/continentaldivide/remix-checklist/",
-      image: remixPreview,
-      // discovering that I really want to be able to format this text with markdown.  Might be able to make the type of this property a ReactNode instead?
-      text: "Remix Checklist is my most recent project.  It's an app designed for collectors to use in the World of Warcraft Remix: Mists of Pandaria event. It represented a few exciting milestones for me as a developer: first, it's my first project with a significant amount of real users (~3k on day of launch, several hundred/day during the event).  Second, it's the first time I've had other developers show up to the repo to contribute to the project.",
-    },
     {
       title: "destiny status",
       projectLink: "https://www.destinystatus.net/",
@@ -64,6 +57,7 @@ export default function Portfolio() {
           Recent projects
         </h1>
         <br />
+        <RemixItem />
         {portfolioItems}
       </div>
     </main>

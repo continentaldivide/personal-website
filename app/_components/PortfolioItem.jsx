@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function PortfolioItem({
   title,
@@ -30,7 +30,7 @@ export default function PortfolioItem({
       <a target="_blank" href={projectLink}>
         <Image src={image} placeholder="blur" />
       </a>
-      <p className="text-xl leading-relaxed">{text}</p>
+      <p className="text-xl leading-relaxed mt-8">{text}</p>
     </div>
   );
 }
