@@ -23,7 +23,7 @@ export default function PortfolioItem({
           <img
             height="32"
             width="32"
-            src="https://cdn.simpleicons.org/github/CCCCCC/"
+            src="https://cdn.simpleicons.org/github/CCCCCC"
           />
         </a>
       </div>
