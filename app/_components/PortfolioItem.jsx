@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function PortfolioItem({
   title,
@@ -23,14 +23,14 @@ export default function PortfolioItem({
           <img
             height="32"
             width="32"
-            src="https://cdn.simpleicons.org/github/CCCCCC/"
+            src="https://cdn.simpleicons.org/github/CCCCCC"
           />
         </a>
       </div>
       <a target="_blank" href={projectLink}>
         <Image src={image} placeholder="blur" />
       </a>
-      <p className="text-xl leading-relaxed">{text}</p>
+      <p className="text-xl leading-relaxed mt-8">{text}</p>
     </div>
   );
 }
