@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className="p-4 fixed top-0 left-0 right-0">
+        <nav className="p-4 fixed w-screen top-0 left-0 right-0">
           <ul className="flex items-center justify-center space-x-6 md:space-x-10">
             <Navitem itemName={'about'} href={'/'} />
             <Navitem itemName={'skills'} href={'skills'} />
