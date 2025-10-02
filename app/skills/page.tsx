@@ -9,7 +9,7 @@ type Skill = {
 export default function Skills() {
   const languageSkills: Skill[] = [
     { text: "html", slug: "html5" },
-    { text: "css", slug: "css3" },
+    { text: "css", slug: "css" },
     { text: "javascript", slug: "javascript" },
     { text: "typescript", slug: "typescript" },
     { text: "python", slug: "python" },
