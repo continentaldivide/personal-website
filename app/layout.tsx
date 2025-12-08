@@ -1,15 +1,16 @@
-import './globals.css';
-import Navitem from './_components/Navitem';
+import "./globals.css";
+import Navitem from "./_components/Navitem";
+import Script from "next/script";
 
 export const metadata = {
-  title: 'Andrew Smith',
-  description: 'Personal website of Andrew Smith',
+  title: "Andrew Smith",
+  description: "Personal website of Andrew Smith",
   openGraph: {
-    title: 'Andrew Smith',
-    description: 'Personal website of Andrew Smith',
+    title: "Andrew Smith",
+    description: "Personal website of Andrew Smith",
     images: [
       {
-        url: 'https://www.andrewsmith.org/thumbnail.png',
+        url: "https://www.andrewsmith.org/thumbnail.png",
       },
     ],
   },
@@ -25,13 +26,19 @@ export default function RootLayout({
       <body>
         <nav className="p-4 fixed w-screen top-0 left-0 right-0">
           <ul className="flex items-center justify-center space-x-6 md:space-x-10">
-            <Navitem itemName={'about'} href={'/'} />
-            <Navitem itemName={'skills'} href={'skills'} />
-            <Navitem itemName={'portfolio'} href={'portfolio'} />
-            <Navitem itemName={'contact'} href={'contact'} />
+            <Navitem itemName={"about"} href={"/"} />
+            <Navitem itemName={"skills"} href={"skills"} />
+            <Navitem itemName={"portfolio"} href={"portfolio"} />
+            <Navitem itemName={"contact"} href={"contact"} />
           </ul>
         </nav>
         {children}
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="6cabc4e8-6fc1-403b-b094-153fbf2fa9f1"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
